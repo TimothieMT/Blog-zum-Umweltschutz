@@ -1,0 +1,229 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #b0b0b0;
+}
+
+article {
+    height: 600px;
+    width: 48%;
+    position: absolute;
+    right: 0px;
+}
+
+main {
+    position: relative;
+    margin: 0 10% 0 10%;
+}
+
+#treibhauseffekt article {
+    height: 600px;
+    width: 48%;
+    position: absolute;
+    left: 0px;
+    padding-left: 15px;
+}
+
+#zeroplastik article {
+    height: 600px;
+    width: 48%;
+    position: absolute;
+    right: 0px;
+    padding-right: 15px;
+}
+
+#nachhaltige_energiequellen article {
+    height: 600px;
+    width: 48%;
+    position: absolute;
+    right: 0px;
+    padding-right: 15px;
+}
+
+.subtitelzp {
+    padding-right: 10px;
+}
+
+.subtitelt h1 {
+    margin-top: 10%;
+}
+
+.subtitelne h1 {
+    margin-top: 10%;
+}
+
+#treibhauseffekt img {
+    position: absolute;
+    height: 600px;
+    width: 50%;
+}
+
+#zeroplastik img {
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    left: 0px;
+}
+
+#nachhaltige_energiequellen img {
+    position: absolute;
+    height: 600px;
+    width: 50%;
+    left: 0px;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 30%;
+}
+
+section {
+    text-align: center;
+}
+
+#zeroplastik {
+    background-color: #d3cbda;
+    height: 600px;
+}
+
+#treibhauseffekt {
+    background-color: #b9b2bf;
+    height: 600px;
+}
+
+#nachhaltige_energiequellen {
+    background-color: #d3cbda;
+    height: 600px;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+#navbar a {
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+#footer {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+#links li a {
+    color: white;
+    padding-right: 20px;
+    text-align: center;
+}
+
+#links li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#links {
+    display: inline-flex;
+}
+
+#footer ul p {
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #333;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.duh a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.duh a:active {
+    color: yellow;
+}
+
+.duh a:visited {
+    color: violet;
+}
+
+.duh a:hover {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #333333;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    background-color: #b0b0b0;
+}
+
+input[type="submit"]:hover {
+    background-color: #d3cada;
+}
